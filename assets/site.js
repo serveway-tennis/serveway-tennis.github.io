@@ -114,7 +114,7 @@
       '<p class="sec-desc">' + a.courtsNote + "</p>" +
       cards(a.courts, "g2", function (c) {
         return (
-          '<div class="card"><h3>' + c.name + '</h3><div class="sub">' + c.use + "</div><p>" + c.note + "</p>" +
+          '<div class="card"><h3>' + c.name + '</h3><div class="sub">' + c.use + "</div><p>" + c.note.replace(/([.?!])\s+/g, "$1<br>") + "</p>" +
           '<p class="addr">' + c.address + ' · <a href="https://map.naver.com/p/search/' + encodeURIComponent(c.map) + '" target="_blank" rel="noopener">네이버 지도 ↗</a></p></div>'
         );
       }) + "</section>" +

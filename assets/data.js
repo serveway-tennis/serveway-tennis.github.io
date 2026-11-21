@@ -108,7 +108,7 @@ window.SERVEWAY = {
         title: "제휴 레슨 할인",
         who: "정회원",
         rows: [["골드스타아카데미(이승민 코치)", "레슨비 10% 할인"]],
-        note: ""
+        note: "전남광주 나주시 그린로 331 502, 503호 (명작1) 5층 · <a href='https://map.naver.com/p/search/%EB%82%98%EC%A3%BC%EC%8B%9C%20%EA%B7%B8%EB%A6%B0%EB%A1%9C%20331' target='_blank' rel='noopener'>네이버 지도 ↗</a>"
       }
     ],
     good: [

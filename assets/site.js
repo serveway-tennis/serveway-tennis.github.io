@@ -207,7 +207,7 @@
     document.querySelectorAll(".tabs button").forEach(function (b) {
       b.classList.toggle("on", b.dataset.doc === key);
     });
-    fetch(DOCS[key])
+    fetch(DOCS[key], { cache: "no-cache" })
       .then(function (r) {
         if (!r.ok) throw new Error(r.status);
         return r.text();
